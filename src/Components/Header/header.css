@@ -1,0 +1,43 @@
+.nav-app {
+  background-color: #0a71c6;
+  color: rgb(0, 0, 0);
+  display: inline-block;
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 10px;
+}
+
+.socialMedia {
+  display: flex;
+  list-style: none;
+  margin: 0;
+}
+.socialMedia li {
+  font-size: 30px;
+  margin: 5px;
+}
+.socialMedia li a {
+  color: white;
+}
+
+.infoNav {
+  list-style: none;
+  display: flex;
+  margin: 0;
+}
+.infoNav li {
+  margin: 10px;
+  padding: 3px;
+}
+.infoNav li a {
+  color: #c1dbea;
+  text-decoration: none;
+}
+
+.infoNav li a:hover,.infoNav li a:active {
+  font-size: 105%;
+  font-weight: bolder;
+  color: white;
+  border-bottom: white solid;
+}

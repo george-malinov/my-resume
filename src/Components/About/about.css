@@ -1,0 +1,23 @@
+.aboutInfo {
+  display: flex;
+  padding: 30px;
+  background-color: #41a4f5;
+  align-items: center;
+}
+
+.aboutInfo img {
+  width: 300px;
+  height: 300px;
+  border-radius: 5%;
+}
+
+.aboutMe {
+  font-size: 24px;
+  margin-left: 40px;
+  color: white;
+  text-align: start;
+}
+.aboutMe p,
+h2 {
+  margin: 2px;
+}
